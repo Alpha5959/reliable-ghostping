@@ -24,13 +24,11 @@ function reliableGhostping(client, options = {}) {
     pingedFieldTitle: "Pinged:",
     messageContentFieldTitle: "Message Content:",
     footerText: "Reliable Ghost Ping Module",
-    footerIconURL: client.user.displayAvatarURL(),
+    footerIconURL:
+      "https://cdn.discordapp.com/avatars/1030870443005071512/7c563a5ae0b708f1600d002adeb26104.webp?size=1024&format=webp&width=0&height=320",
     logChannelID: null,
     deleteButtonID: "delete",
     deleteButtonLabel: "Delete",
-    closeButtonID: "close",
-    closeButtonLabel: "Close",
-    customization: {},
   };
 
   const finalOptions = { ...defaultOptions, ...options };
@@ -81,10 +79,6 @@ function reliableGhostping(client, options = {}) {
         .setCustomId(finalOptions.deleteButtonID)
         .setLabel(finalOptions.deleteButtonLabel)
         .setStyle(ButtonStyle.Danger),
-      new ButtonBuilder()
-        .setCustomId(finalOptions.closeButtonID)
-        .setLabel(finalOptions.closeButtonLabel)
-        .setStyle(ButtonStyle.Secondary),
     ];
 
     const row = new ActionRowBuilder().addComponents(buttons);
@@ -125,11 +119,6 @@ function reliableGhostping(client, options = {}) {
         ghostPingMessage.delete();
         interaction.followUp({
           content: "Ghost ping message deleted.",
-          ephemeral: true,
-        });
-      } else if (interaction.customId === finalOptions.closeButtonID) {
-        interaction.followUp({
-          content: "Ghost ping message closed.",
           ephemeral: true,
         });
       }
