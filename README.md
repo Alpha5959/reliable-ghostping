@@ -5,8 +5,9 @@
     <img src="https://img.shields.io/npm/dt/reliable-ghostping?style=for-the-badge" alt="npm" />
   </a>
 
+
   <a href="https://discord.com/invite/Rw5gRVqSaK">
-    <img src="https://img.shields.io/discord/800631529351938089?color=5865F2&label=Reliable&style=for-the-badge" alt="Discord Server" />
+    <img src="https://img.shields.io/discord/1029777893112418314?color=5865F2&label=Reliable&style=for-the-badge" alt="Discord Server" />
   </a>
 </p>
 
