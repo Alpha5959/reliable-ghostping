@@ -102,31 +102,27 @@ function reliableGhostping(client, options = {}) {
     }
 
     const filter = (interaction) => {
-      return (
-        interaction.user.id === pinger.id || interaction.user.id === pinged.id
-      );
+      return interaction.customId === finalOptions.deleteButtonID;
     };
 
     const collector = ghostPingMessage.createMessageComponentCollector({
       filter,
-      time: 15000,
+      time: 15 * 60 * 1000, // 15 minutes
     });
 
     collector.on("collect", async (interaction) => {
-      await interaction.deferUpdate();
-
-      if (interaction.customId === finalOptions.deleteButtonID) {
+      if (interaction.user.id === pinger.id) {
         ghostPingMessage.delete();
-        interaction.followUp({
-          content: "Ghost ping message deleted.",
-          ephemeral: true,
-        });
+      } else {
+        console.log(
+          "[RELIABLE] | [SYSTEM] | [BREAK] » There is a issue with interactions, thanks to report it to package developer."
+        );
       }
     });
 
-    collector.on("end", (collected) => {
+    collector.on("end", async (collected) => {
       if (collected.size === 0) {
-        ghostPingMessage.edit({ components: [] });
+        ghostPingMessage.delete();
       }
     });
   });
