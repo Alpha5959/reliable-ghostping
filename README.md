@@ -5,7 +5,6 @@
     <img src="https://img.shields.io/npm/dt/reliable-ghostping?style=for-the-badge" alt="npm" />
   </a>
 
-
   <a href="https://discord.com/invite/Rw5gRVqSaK">
     <img src="https://img.shields.io/discord/1029777893112418314?color=5865F2&label=Reliable&style=for-the-badge" alt="Discord Server" />
   </a>
@@ -76,9 +75,6 @@ reliableGhostping(client, options);
 - **logChannelID:** ID of the text channel where ghost ping messages should be logged. (Default: `null`)
 - **deleteButtonID:** Custom ID of the button used to delete the ghost ping message. (Default: `"delete"`)
 - **deleteButtonLabel:** Label of the button used to delete the ghost ping message. (Default: `"Delete"`)
-- **closeButtonID:** Custom ID of the button used to close the ghost ping message. (Default: `"close"`)
-- **closeButtonLabel:** Label of the button used to close the ghost ping message. (Default: `"Close"`)
-- **customization:** An object containing custom CSS styles to apply to the module's components.
 
 **Node.js and Discord.js Compatibility:**
 
