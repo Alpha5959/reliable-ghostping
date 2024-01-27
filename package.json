@@ -1,0 +1,27 @@
+{
+  "name": "reliable-ghostping",
+  "version": "1.6.0 (Test Build)",
+  "description": "A ghostping feature for your discord bot, powered by Reliable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghostping",
+    "anti-ghost-ping",
+    "antighost-ping"
+  ],
+  "author": "xkroenen",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha5959/reliable-ghostping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alpha5959/reliable-ghostping/issues"
+  },
+  "homepage": "https://github.com/alpha5959/reliable-ghostping#readme"
+}
