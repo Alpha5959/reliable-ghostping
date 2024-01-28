@@ -1,4 +1,14 @@
-# Reliable Ghost Ping Module 👻
+## Ghost Ping Module 👻: The Ultimate Ghost Ping Prevention Tool
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/reliable-ghostping">
+    <img src="https://img.shields.io/npm/dt/reliable-ghostping?style=for-the-badge" alt="npm" />
+  </a>
+
+  <a href="https://discord.com/invite/Rw5gRVqSaK">
+    <img src="https://img.shields.io/discord/1029777893112418314?color=5865F2&label=Reliable&style=for-the-badge" alt="Discord Server" />
+  </a>
+</p>
 
 ---
 
@@ -10,7 +20,7 @@ This module is designed to combat ghost pings within your Discord server. Ghost 
 - 👤 Detects and logs deleted messages containing mentions.
 - 🔔 Notifies the pinged user, even if the message was deleted.
 - 🛡️ Provides detailed information about the ghost ping.
-- 🚫 Ignores messages from specified users or channels.
+- 🚫 Ignores messages from specified users.
 - 📝 Customizable embed messages and field titles.
 
 ---
@@ -59,8 +69,24 @@ client.on("ready", () => {
 
 ---
 
-### Support:
-If you encounter any issues or have questions, feel free to open an issue on the module's GitHub repository.
+**Node.js and Discord.js Compatibility:**
+
+The Reliable Ghost Ping Module is compatible with the latest stable versions of Node.js and Discord.js. As of the time of writing, these versions are, Just little you know, it's daily updated so, if it doesn't work with your node.js or discord.js version. No worries! We can still help you with our support:
+
+- Node.js: v20.11.0
+- Discord.js: v14.14.1
+
+---
+
+**Join our Discord Server for Support and Updates:**
+
+Need help with setting up or using the Reliable Ghost Ping Module? Join our dedicated Discord server: https://dsc.gg/reliable-support. Our friendly community and support team are always ready to assist you. 🌟
+
+---
+
+**Reliable AI for Your Discord Needs:**
+
+Looking for an advanced AI to enhance your Discord experience? Discover Reliable AI, a powerful Discord bot that offers a wide range of features, including moderation, auto-moderation and more. Invite Reliable AI to your server today: https://dsc.gg/reliable-bot
 
 ---
 
