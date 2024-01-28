@@ -26,10 +26,10 @@ This module is designed to combat ghost pings within your Discord server. Ghost 
 ---
 
 ### Setup:
-1️⃣ **Invite the Bot**: Invite the bot to your Discord server.
-2️⃣ **Grant Permissions**: Ensure the bot has the necessary permissions, such as `Send Messages` and `Read Message History`.
-3️⃣ **Configure Options**: Customize the settings using the provided options (explained below).
-4️⃣ **Enable the Module**: Call the `reliableGhostping` function with the desired options.
+1. **Invite the Bot**: Invite the bot to your Discord server.
+2. **Grant Permissions**: Ensure the bot has the necessary permissions, such as `Send Messages` and `Read Message History`.
+3. **Configure Options**: Customize the settings using the provided options (explained below).
+4. **Enable the Module**: Call the `reliableGhostping` function with the desired options.
 
 ---
 
