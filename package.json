@@ -1,6 +1,6 @@
 {
   "name": "reliable-ghostping",
-  "version": "1.6.0 (Test Build)",
+  "version": "1.7.3",
   "description": "A ghostping feature for your discord bot, powered by Reliable",
   "main": "index.js",
   "scripts": {
